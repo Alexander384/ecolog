@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+html {
+    --wrapWidth: 1920px;
+    --contWidth: 1200px;
+}
+
+body {
+background: white;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+    max-width: var(--wrapWidth);
+    margin: 0 auto;
+}
+
+.container {
+    max-width: var(--contWidth);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+    display: block;
+    padding: 55px 25px;
+    font-size: 18px;
+    transition: .3s;
+}
+
+nav a:hover {
+    color:honeydew;
+    background: green;
+}
+
+header .container {
+    align-items: center;
+}
