@@ -264,3 +264,113 @@ header .container {
 .slide img {
     height: 100%;
 }
+
+.contacts {
+    padding: 100px 0 90px;
+    background: #e3ebc9;
+   
+}
+
+.contacts h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 28px;
+    color: rgb(19, 126, 5);
+    text-align: center;
+}
+
+.contacts-container {
+    margin-top: 60px;
+}
+
+.contact-info,
+.contact-form {
+    width: 50%;
+    
+}
+
+.contact-info {
+    padding: 35px 30px 60px;
+}
+
+.footer-logo {
+    display: inline-block;
+}
+
+
+.footer-logo::after {
+    background: #e3ebc9;
+}
+
+
+
+.contact-info p {
+    margin: 40px 0 30px;
+    color: rgb(35, 43, 34);
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.contact-item {
+    margin-bottom: 18px;
+}
+
+.contact-item span,
+.contact-item a {
+    font-size: 14px;
+    color: rgb(116, 113, 112);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-form {
+    padding: 30px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid rgb(175, 177, 175);
+    background: none;
+    font-size: 14px;
+    color: rgb(19, 126, 5);
+    margin-bottom: 30px;
+    outline: none;
+}
+
+.contact-form textarea {
+    height: 130px;
+    resize: none;
+}
+
+.contact-form button {
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    background: green;
+    font-size: 26px;
+    padding: 25px 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgb(89, 196, 90, 0.65);
+    transition: .3s;
+    margin-top: 60px;
+    max-width: 400px;
+    align-self: center;
+}
+
+.contact-form button i {
+    margin-left: 30px;
+}
+
+.contact-form button:hover {
+    box-shadow: none;
+}

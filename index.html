@@ -11,6 +11,7 @@
     <link rel="manifest" href="favicons/site.webmanifest">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
@@ -22,10 +23,10 @@
            <nav>
                <button class="mini-menu">Меню</button>
            <ul>
-               <li><a href="#">О нас</a></li>
+               <li><a href="#eco">О нас</a></li>
                <li><a href="#preim">Преимущества</a></li>
                <li><a href="#uslug">Услуги</a></li>
-               <li><a href="#">Контакты</a></li>
+               <li><a href="#cont">Контакты</a></li>
            </ul>
         </nav>
 
@@ -34,9 +35,9 @@
 
     <section class="home">
         <div class="container home-container">
-            <h1 class="home-title">Ecologia</h1>
+            <h1 class="home-title"><a name="eco"></a>Ecologia</h1>
             <p class="home-text">Обратившись к нам по вопросам охраны окружающей среды, вы останитесь довольны.</p>
-            <a class="home-link" href="#">Контакты</a>
+            <a class="home-link" href="#cont">Контакты</a>
         </div>
     </section>
 
@@ -132,6 +133,39 @@
             </div>
         </div>
 
+
+    </section>
+
+    <section class="contacts">
+        <h2><a name="cont"></a>Контакты</h2>
+        <div class="container contacts-container">
+        <div class="contact-info">
+            <a href="#" class="logo footer-logo">Ecologia</a>
+            <p>Свяжитесь с нами и мы ответим на интересующие вас вопросы.
+            </p>
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Minsk, Republik of Belarus</span>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-mobile-alt"></i>
+                <a href="tel: +375296666666">+375296667788</a>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="ecolog@mail.ru">ecolog@mail.ru</a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Ваше имя">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Сообщение"></textarea>
+                <button type="submit">Отправить <i class="fas fa-envelope"></i></button>
+
+            </form>
+        </div>
+    </div>
 
     </section>
 

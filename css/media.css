@@ -102,6 +102,13 @@
     .service-item {
         width: 100%;
     }
+    .contacts-container {
+        flex-direction: column;
+    }
+    .contacts-info,
+    .contacts-form {
+        width: 100%;
+    }
 }
 
 @media(max-width:600px) {
